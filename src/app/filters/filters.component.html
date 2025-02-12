@@ -1,0 +1,34 @@
+<div class="w-full flex space-x-4">
+    <div class="">
+        {{title}}
+    </div>
+    <div class="max-w-md mx-auto">
+        <ng-select [items]="options"
+            bindLabel="name"
+            placeholder="{{selectItems}}"
+            class="w-full px-2 "
+            (change)="onItemChange($event)"
+            [ngClass]="{'border border-gray-300 rounded-md': true}">
+        </ng-select>
+    </div>
+    <!--<ng-select class="border-solid border-2 rounded border-indigo-200" [(ngModel)]="selectItems" >
+        <ng-option class="p-4" *ngFor="let option of options" [value]="option.id">
+            {{option.name}}
+        </ng-option>
+    </ng-select> -->
+    <!--
+    <ul class="dropdown-menu" [class.show]="isOpen">
+        <li *ngFor="let item of items">
+            <span>{{item}}</span>
+        </li>
+    </ul>
+    -->
+    <!--<select ng-options="" >
+
+    </select>
+    <select name="" id="">
+        <option value="1">uno</option>
+        <option value="2">dos</option>
+        <option value="3">tres</option>
+    </select>-->
+</div>

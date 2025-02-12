@@ -1,0 +1,16 @@
+@if (!isLoggedIn) {
+    <app-pokemon></app-pokemon>
+}@else {
+    <div class="bg-white-off grid sm:px-[5%] md:px-[10%] lg:px-[15%] xl:px-[20%] xl2:px-[30%] p-[5%] my-[15%]">
+        <div class="text-2xl pb-[5%] text-center"> Login </div>
+        <form class="" (ngSubmit)="onSubmit()" [formGroup]="formUser" >
+            <label class="flex pb-2">Usuario</label>
+                <input class=" w-full border-2 border-slate-300 p-2 mb-4 rounded-md" type="text" formControlName = "name" placeholder="pepito">
+            <label class="flex">Contraseña</label>
+                <input class="w-full border-2 flex border-slate-300 p-2 mb-4 rounded-md" type="password" formControlName = "pass">
+            <button class="w-[80px] bg-yellow-mustarda text-center border-2 border-yellow-mustarda rounded-md text-white my-2 p-2">Enviar</button>
+        </form>
+    </div>
+    {{ formUser.value.name }} - {{formUser.value.pass }}
+}
+

@@ -1,0 +1,28 @@
+import { Pokemon } from './pokemon';
+
+export const POKEMONS: Pokemon[] = [
+    {id: 1, name: 'Pikachu', order: 1, image:'./assets/pikachu.png',type:'eléctrico'},
+    {id: 2, name: 'Charmander', order: 2, image: './assets/charmander.png',type:'fuego'},
+    {id: 3, name: 'Squirtle', order: 3, image:'./assets/squirtle.png',type:'agua'},
+    {id: 4, name: 'Bulbasaur', order: 4, image:'./assets/bulbasaur.png',type:'planta'},
+    {id: 5, name: 'Gengar', order: 5, image:'./assets/gengar.png',type:'fantasma'},
+    {id: 6, name: 'Mew', order: 6, image:'./assets/mew.png',type:'psíquico'},
+    {id: 7, name: 'Bellsprout', order: 7, image:'./assets/bellsprout.png',type:'planta'},
+    {id: 8, name: 'Charizard', order: 8, image:'./assets/charizard.png',type:'fuego'},
+    {id: 9, name: 'Eevee', order: 9, image:'./assets/eevee.png',type:'normal'},
+    {id: 10, name: 'Flareon', order: 10, image:'./assets/flareon.png',type:'fuego'},
+    {id: 11, name: 'Geodude', order: 11, image:'./assets/geodude.png',type:'roca'},
+    {id: 12, name: 'Jolteon', order: 12, image:'./assets/jolteon.png',type:'eléctrico'},
+    {id: 13, name: 'Lapras', order: 13, image:'./assets/lapras.png',type:'agua'},
+    {id: 14, name: 'Meowth', order: 14, image:'./assets/meowth.png',type:'psíquico'},
+    {id: 15, name: 'Oddish', order: 15, image:'./assets/oddish.png',type:'planta'},
+    {id: 16, name: 'Ponyta', order: 16, image:'./assets/ponyta.png',type:'fuego'},
+    {id: 17, name: 'Psiduck', order: 17, image:'./assets/psiduck.png',type:'psíquico'},
+    {id: 18, name: 'Raichu', order: 18, image:'./assets/raichu.png',type:'eléctrico'},
+    {id: 19, name: 'Scyther', order: 19, image:'./assets/scyther.png',type:'bicho'},
+    {id: 20, name: 'Snorlax', order: 20, image:'./assets/snorlax.png',type:'normal'},
+    {id: 21, name: 'Vaporeon', order: 21, image:'./assets/vaporeon.png',type:'fuego'},
+    {id: 22, name: 'Dratini', order: 22, image:'./assets/dratini.png',type:'dragón'},
+    {id: 23, name: 'Dragonite', order: 23, image:'./assets/dragonite.png',type:'dragón'},
+    {id: 24, name: 'Pidgeot', order: 24, image:'./assets/pidgeot.png',type:'volador'},
+]
